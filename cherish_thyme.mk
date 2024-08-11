@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/thyme/device.mk)
 
 # Inherit some common Crdroid stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_thyme
+PRODUCT_NAME := cherish_thyme
 PRODUCT_DEVICE := thyme
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M2102J2SC
+PRODUCT_MODEL := Mi 10S
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -26,3 +26,10 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := Xiaomi/thyme/thyme:13/RKQ1.211001.001/V816.0.4.0.TGACNXM:user/release-keys
+
+# Cherish
+CHERISH_BUILD_TYPE := UNOFFICIAL
+CHERISH_MAINTAINER := TiramisuCat
+CHERISH_CHIPSET := Snapdragon870
+CHERISH_BATTERY := 4780mAh
+CHERISH_DISPLAY := 2340×1080

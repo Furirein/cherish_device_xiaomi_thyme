@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_thyme.mk
+    $(LOCAL_DIR)/cherish_thyme.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_thyme-user \
-    lineage_thyme-userdebug \
-    lineage_thyme-eng
+    cherish_thyme-user \
+    cherish_thyme-userdebug \
+    cherish_thyme-eng
