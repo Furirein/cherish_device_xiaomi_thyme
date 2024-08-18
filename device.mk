@@ -14,7 +14,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/xiaomi/thyme/thyme-vendor.mk)
 
 # Add common definitions for Qualcomm
-$(call inherit-product, hardware/qcom-caf/common/common.mk)
+$(call inherit-product, hardware/qcom-caf/common/BoardConfigQcom.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
